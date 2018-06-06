@@ -1,0 +1,468 @@
+/* ********************************************
+GENERAL
+******************************************** */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #212121;
+}
+.container {
+	width: 80%;
+	max-width: 69em;
+	margin: 0 auto;
+}
+h1, h2 {
+	font-family: 'Merriweather', serif;
+	font-weight:600;
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 1em 0;
+}
+a, a:active, a:focus{ 
+	color: #fff;
+}
+a:hover {
+	color: #212121;
+}
+.container:before, .container:after {
+	content: '';
+	display: table;
+}
+.container:after {
+	clear: both;
+}
+.button.hollow {
+	border: 1px solid #ffffff;
+	border-radius: .125em;
+	color: #ffffff;
+	font-size: inherit;
+	margin: 0 .25em;
+}
+.button.hollow:hover, .button.hollow:focus {
+	border-color: #212121;
+    background-color: #212121;
+    color: #fff;
+}
+.horizontal-center {
+	margin: 0 auto 8em;
+	display: table;
+}
+.bottom-space {
+	padding: 0 0 2em;
+}
+.m2 {
+	margin: 2em 0;
+}
+.t3 {
+	margin-top: 3em;
+}
+hr {
+	border-color: #e2e2e2;
+	width: 80%;
+	max-width: 480px;
+	margin: 3em auto;
+}
+.red {
+	color: #C25443;
+}
+.grey {
+	color: #999;
+}
+
+
+/* ********************************************
+NAV + HERO
+******************************************** */
+
+.top-bar, .top-bar ul, .hero {
+	background-color: #C25443;
+}
+.hero h1 {
+	color: #fff;
+	text-align: center;
+	padding: 2.25em 0 1.5em;
+	line-height: 1.4;
+}
+.hero h1 span {
+	font-weight: 300;
+	margin-top: .5em;
+	display: block;
+}
+.menu > li:last-child > a {
+	padding-right: 0;
+}
+
+
+/* ********************************************
+MY WORK
+******************************************** */
+
+h2.section-title {
+	background-color: #212121;
+	padding: 1em 0;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+h2.section-title:after {
+	position: absolute;
+    content: " ";
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: 0.5em #212121 solid;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.5em solid transparent;
+    border-left: 0.5em solid transparent;
+    margin-left: -0.5em;
+}
+.my-work .row {
+	padding: 3em 0;
+	border-bottom: 1px solid #e2e2e2;
+}
+.my-work .row:last-child {
+	border-bottom: none;
+}
+h2.project-title {
+	font-size: 2em;
+}
+a.case, a.case:active, a.case:focus {
+	color: #C25443;
+	font-weight: 600;
+}
+a.case:hover {
+	color: #212121;
+}
+
+
+/* ********************************************
+ABOUT
+******************************************** */
+
+.about {
+	background: url('../img/carlo.jpg') no-repeat right bottom;
+  	background-size: cover;
+  	background-attachment: fixed;
+	padding: 3.5em 0;
+	color: #fff;
+	/*font-size: 1.2em;*/
+}
+
+
+/* ********************************************
+DESIGN PROCESS
+******************************************** */
+
+.process h2 {
+	padding: 1em 0 0.5em;
+	text-align: center;
+}
+.process p {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 3em;
+}
+.process .column {
+	text-align: center;
+}
+.process i {
+	font-size: 3em;
+}
+.process ul {
+	margin-bottom: 3em;
+}
+
+
+/* ********************************************
+TOOLS
+******************************************** */
+
+.tools h2 {
+	padding: 1em 0;
+	text-align: center;
+	border-top: 1px solid #e2e2e2;
+	width: 80%;
+	max-width: 69em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.toolicons {
+	max-height: 3em;
+	margin: 0.5em 1em 1em 0;
+}
+.tools .column {
+	margin-bottom: 3em;
+}
+
+
+/* ********************************************
+FOOTER
+******************************************** */
+
+footer {
+	background-color: #C25443;
+	color: #fff;
+	text-align: center;
+}
+footer h2 {
+	padding: 1em 0;
+}
+footer p {
+	font-size: 1.2em;
+}
+footer .hollow.button {
+	margin: 3em auto 2em;
+}
+footer .horizontal-center {
+	margin-bottom: 0;
+}
+footer i {
+	font-size: 2em;
+}
+.copyright {
+	font-size: .75em;
+	margin-bottom: .75em;
+}
+
+
+/* ********************************************
+HERO PORTFOLIO
+******************************************** */
+
+
+.taskly .hero {
+	background-color: #212121;
+	color: #fff;
+	text-align: center;
+	position: relative;
+}
+.taskly .hero .container:after {
+	position: absolute;
+    content: " ";
+    top: 100%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-top: 1.15em #212121 solid;
+    border-right: 1.15em solid transparent;
+    border-bottom: 1.15em solid transparent;
+    border-left: 1.15em solid transparent;
+    margin-left: -1.15em;
+}	
+.taskly .hero h1 {
+	padding-bottom: 1em;
+}
+.taskly .hero h1 span {
+	font-size: 0.75em;
+}
+.tag-text {
+	display: table;
+	margin: 0 auto;
+	padding-bottom: 1em;
+}
+.tag-text h2 {
+	font-size: 1.3em;
+}
+.tag-text p {
+	font-size: 0.75em;
+}
+
+
+/* ********************************************
+PROJECT PORTFOLIO
+******************************************** */
+
+.project h2 {
+	padding: 1em 0 0.5em;
+	text-align: center;
+}
+
+
+/* ********************************************
+Challenge PORTFOLIO
+******************************************** */
+
+.challenge h2 {
+	padding: 1em 0 0.5em;
+	text-align: center;
+	border-top: 1px solid #e2e2e2;
+	width: 80%;
+	max-width: 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* ********************************************
+RESEARCH PORTFOLIO
+******************************************** */
+
+.research {
+	background-color: #F4F6F7;
+}
+.research h2 {
+	padding: 1em 0 0.5em;
+	text-align: center;
+}
+
+
+/* ********************************************
+DEFINE PORTFOLIO
+******************************************** */
+
+.define h2 {
+	padding: 1em 0 0.5em;
+	text-align: center;
+}
+
+
+/* ********************************************
+IDEATE PORTFOLIO
+******************************************** */
+
+.ideate {
+	background-color: #F4F6F7;
+}
+.ideate h2 {
+	padding: 1em 0 0.5em;
+	text-align: center;
+}
+
+
+/* ********************************************
+PROTOTYPING PORTFOLIO
+******************************************** */
+
+.prototyping h2 {
+	padding: 1em 0 0.5em;
+	text-align: center;
+}
+
+
+/* ********************************************
+RESEARCH PORTFOLIO
+******************************************** */
+
+.visual {
+	background-color: #F4F6F7;
+}
+.visual h2 {
+	padding: 1em 0 0.5em;
+	text-align: center;
+}
+
+
+/* ********************************************
+PROTOTYPING PORTFOLIO
+******************************************** */
+
+.analytics h2 {
+	padding: 1em 0 0.5em;
+	text-align: center;
+}
+
+
+/* ********************************************
+CONCLUSION PORTFOLIO
+******************************************** */
+
+.conclusion {
+	background-color: #F4F6F7;
+}
+.conclusion h2 {
+	padding: 1em 0 0.5em;
+	text-align: center;
+}
+
+
+
+/* ********************************************
+MEDIA QUERIES
+******************************************** */
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+	.container {
+		width: 90%;
+	}
+	.menu > li > a {
+		padding: 0.7rem 0.5rem;
+	}
+	.menu > li > a:last-child {
+		padding-right: 0.5rem;
+	}
+	.menu {
+		display: table;
+		margin: 0 auto;
+	}
+	h1 {
+	font-size: 2em;
+	}
+	.hero h1 {
+		padding-top: 1em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	h2.project-title {
+    	font-size: 1.75em;
+    }
+	.horizontal-center {
+		margin-bottom: 5em;
+	}
+	.my-work img {
+		padding-bottom: 2em;
+	}
+	.about {
+		font-size: 1em;
+	}
+	.toolicons {
+		max-height: 2.5em;
+	}
+}
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.container {
+		width: 90%;
+	}
+	h1 {
+	font-size: 2.5em;
+	}
+	.hero h1 {
+		padding-top: 1em;
+	}
+	.tag-text {
+		padding-bottom: 1.5em;
+	}
+	.about {
+		font-size: inherit;
+	}
+	.horizontal-center {
+		margin-bottom: 5em;
+	}
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+	body {
+		font-size: 1.125em;
+	}
+	h1 {
+		font-size: 2.7em;
+	}	
+	.tag-text {
+		padding-bottom: 2em;
+	}
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
